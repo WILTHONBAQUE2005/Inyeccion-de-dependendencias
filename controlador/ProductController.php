@@ -3,7 +3,7 @@ require_once __DIR__ . '/../servicios/ProductService.php';
 
 class ProductController {
     /** @var ProductService */
-    private $service;  // <— elimina el tipo aquí
+    private $service; 
 
     /**
      * @param ProductService $svc
